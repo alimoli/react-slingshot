@@ -9,7 +9,7 @@ jobs:
       - run: npm i
       - run: npm run lint
 
-  run:
+  test:
     docker:
       - image: circleci/node:13.8.0
     steps:
